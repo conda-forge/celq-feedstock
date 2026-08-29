@@ -76,7 +76,7 @@ jobs:
             build_platform: win-arm64
             build_workspace_dir: C:\\bld\\
             docker_run_args: 
-            free_disk_space: quick
+            free_disk_space: skip
             os: windows
             pagefile_size: 0
             resize_partitions: False

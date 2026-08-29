@@ -1,5 +1,5 @@
 context:
-  version: "0.5.0"
+  version: "0.6.0"
 
 package:
   name: celq
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/IvanIsCoding/celq/archive/v${{ version }}.tar.gz
-  sha256: c6b38824634e0d0701f3bcc1a7dfe222c1e5b5b16e15cc45e40f59a34d1b2872
+  sha256: 0ad92c47b25c992a0600a91ccf6ae0547d9bc4f5b7bcfa0ef9c33ded948a4fa5
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
