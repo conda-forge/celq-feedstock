@@ -1,5 +1,5 @@
 context:
-  version: "0.7.0"
+  version: "0.7.1"
 
 package:
   name: celq
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/IvanIsCoding/celq/archive/v${{ version }}.tar.gz
-  sha256: 4fcb8ef8f926acec241c02c8285f78597070cfcf3b3aa0fd2a8fa12b531aa123
+  sha256: 3df2699cb5aa7ad07ca94e1f83845aea96998e442dd764177062308fccdcbd13
 
 build:
   number: 0
